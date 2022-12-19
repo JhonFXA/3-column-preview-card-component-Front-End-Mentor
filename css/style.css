@@ -14,7 +14,7 @@
     --very-dark-cyan: hsl(179, 100%, 13%);
 
     --transparent-white: hsla(0, 0%, 100%, 0.75); /* paragraphs */
-    --very-light-gray: hsl(0, 0%, 95%); /* background, headings, buttons */
+    --very-light-gray: hsl(0, 0%, 95%); /* background, headings, as */
 }
 
 body {
@@ -33,11 +33,12 @@ main {
     height: 28em;
 }
 
-h1 {
+h2 {
     font-family: Big Shoulders Display, sans-serif;
     color: var(--very-light-gray);
     margin-top: 20px;
     text-transform: uppercase;
+    font-size: 32px;
 }
 
 p {
@@ -69,41 +70,43 @@ p {
     padding: 41px;
 }
 
-button {
+a {
+    text-align: center;
     display: block;
     font-family: Lexend Deca, sans-serif;
+    font-size: 13px;
     background: var(--very-light-gray);
     padding: 10px;
     border: solid var(--very-light-gray);
     border-radius: 50px;
-    width: 120px;
+    width: 125px;
     margin-top: 60px;
     transition: ease-in-out 0.2s;
 }
 
-.sedan-button {
+.sedan-a {
     color: var(--bright-orange);
 }
 
-.sedan-button:hover {
+.sedan-a:hover {
     background: var(--bright-orange);
     color: var(--very-light-gray);
     border: solid var(--very-light-gray);
 }
-.suv-button:hover {
+.suv-a:hover {
     background: var(--dark-cyan);
     color: var(--very-light-gray);
     border: solid var(--very-light-gray);
 }
-.luxury-button:hover {
+.luxury-a:hover {
     background: var(--very-dark-cyan);
     color: var(--very-light-gray);
     border: solid var(--very-light-gray);
 }
 
-.suv-button {
+.suv-a {
     color: var(--dark-cyan);
 }
-.luxury-button {
+.luxury-a {
     color: var(--very-dark-cyan);
 }
